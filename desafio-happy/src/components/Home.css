@@ -1,0 +1,12 @@
+.home1 {
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .home-2 {
+    display: inline-block; /* Mantiene el contenido en línea */
+  }
+  
+  .title-h1 {
+    font-weight: bold; 
+  }
+  
