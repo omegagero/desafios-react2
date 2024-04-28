@@ -1,0 +1,35 @@
+body {
+  font-family: "Tahoma", sans-serif;
+}
+a{
+  color: #a1a1a1 !important;
+  text-decoration: none !important;
+}
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  background-color: rgb(64, 62, 62);
+  color: #888; 
+}
+
+.pokeball-wrapper {
+  flex: 0 0 auto; 
+}
+
+.pokeball {
+  width: 35px; 
+  padding-left: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  padding-right: 25px;
+}
+
+.active {
+  color: red !important;
+}
+

@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #43a047;
+  padding: 20px;
+  color: white;
+}
+
+/* gallery */
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery .photo {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+
+.gallery .photo:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+.gallery .photo svg {
+  align-self: flex-end;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.headerstyle{
+
+display: flex;
+background-color: #0dcaf0;
+align-items: center;
+padding: 15px;
+justify-content: space-between;
+color: white;
+
+}
+
+.contenedor {
+  position: relative; /* Asegúrate de que la posición relativa se establezca para que el pseudo-elemento se posicione correctamente */
+  background-image: url('./assets/img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  max-height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor::before {
+  content: ""; /* Crea un pseudo-elemento para aplicar el efecto de superposición */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Color negro con opacidad del 30% */
+}
+
+.subtitulo {
+  
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+.centro{
+  padding: 40px;
+}
+
+

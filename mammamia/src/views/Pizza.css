@@ -1,0 +1,53 @@
+/* Estilos para el contenedor principal */
+.pizza-container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid rgb(184, 182, 182);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para la imagen */
+  .pizza-image {
+    flex: 1;
+    max-width: 40%;
+    margin-right: 20px; 
+    min-width: 200px ;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el contenido de la pizza */
+  .pizza-content {
+    flex: 1;
+    max-width: 50%;
+    
+  }
+  
+  /* Estilos para el título */
+  .pizza-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la descripción */
+  .pizza-description {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la lista de ingredientes */
+  .pizza-ingredients {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilos para el precio */
+  .pizza-price {
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+
+  
